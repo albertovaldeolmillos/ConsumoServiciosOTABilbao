@@ -35,6 +35,10 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,11 +47,136 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connected Services\integraExternalServicesRef\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\PxEndpointWCF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\TariffComputerLocal\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web References\lan.bilbokoudala.desota\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Connected Services\integraExternalServicesRef\integraExternalServices.wsdl" />
+    <None Include="Connected Services\PxEndpointWCF\ConsumoServiciosWeb.PxEndpointWCF.rdPCancelParkingOperationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PxEndpointWCF\ConsumoServiciosWeb.PxEndpointWCF.rdPConfirmFinePaymentResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PxEndpointWCF\ConsumoServiciosWeb.PxEndpointWCF.rdPConfirmParkingOperationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PxEndpointWCF\ConsumoServiciosWeb.PxEndpointWCF.rdPConfirmUnParkingOperationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PxEndpointWCF\ConsumoServiciosWeb.PxEndpointWCF.rdPNotifyAlarmResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PxEndpointWCF\ConsumoServiciosWeb.PxEndpointWCF.rdPNotifyCollectionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PxEndpointWCF\ConsumoServiciosWeb.PxEndpointWCF.rdPQueryFinePaymentQuantityResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PxEndpointWCF\ConsumoServiciosWeb.PxEndpointWCF.rdPQueryListOfFinesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PxEndpointWCF\Endpoints.wsdl" />
+    <None Include="Connected Services\PxEndpointWCF\Endpoints.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\PxEndpointWCF\Endpoints1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\TariffComputerLocal\TariffComputer.wsdl" />
+    <None Include="Web References\lan.bilbokoudala.desota\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\integraExternalServicesRef\" />
+    <WCFMetadataStorage Include="Connected Services\PxEndpointWCF\" />
+    <WCFMetadataStorage Include="Connected Services\TariffComputerLocal\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\integraExternalServicesRef\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\integraExternalServicesRef\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\integraExternalServicesRef\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\PxEndpointWCF\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\PxEndpointWCF\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\PxEndpointWCF\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://desota.bilbokoudala.lan/BilbaoPark/ws/Mobile/integraExternalServices.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\lan.bilbokoudala.desota\</RelPath>
+      <UpdateFromURL>http://desota.bilbokoudala.lan/BilbaoPark/ws/Mobile/integraExternalServices.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\lan.bilbokoudala.desota\integraExternalServices.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\TariffComputerLocal\TariffComputer.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\TariffComputerLocal\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\TariffComputerLocal\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\TariffComputerLocal\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

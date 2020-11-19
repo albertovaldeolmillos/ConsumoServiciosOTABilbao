@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="605f7808-7965-42ec-b093-c2f21fced1f4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://otavig.bilbokoudala.lan/PxEndpoint/EndpointsWCF/Endpoints.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Endpoints.wsdl" MetadataType="Wsdl" ID="668796d6-beab-4179-aa64-c2407de5ad3f" SourceId="1" SourceUrl="http://otavig.bilbokoudala.lan/PxEndpoint/EndpointsWCF/Endpoints.svc?wsdl" />
+    <MetadataFile FileName="Endpoints.xsd" MetadataType="Schema" ID="6003729d-88f0-43ad-b6ac-b8a41a046521" SourceId="1" SourceUrl="http://otavig.bilbokoudala.lan/PxEndpoint/endpointswcf/Endpoints.svc?xsd=xsd0" />
+    <MetadataFile FileName="Endpoints1.xsd" MetadataType="Schema" ID="e7b6637b-b853-4368-bb5c-488a91a483b0" SourceId="1" SourceUrl="http://otavig.bilbokoudala.lan/PxEndpoint/endpointswcf/Endpoints.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

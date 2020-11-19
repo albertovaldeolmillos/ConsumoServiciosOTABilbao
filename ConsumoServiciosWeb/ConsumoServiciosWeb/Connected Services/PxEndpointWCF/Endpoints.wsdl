@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Endpoints" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://otavig.bilbokoudala.lan/PxEndpoint/endpointswcf/Endpoints.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://otavig.bilbokoudala.lan/PxEndpoint/endpointswcf/Endpoints.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IEndpoints_rdPConfirmUnParkingOperation_InputMessage">
+    <wsdl:part name="parameters" element="tns:rdPConfirmUnParkingOperation" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPConfirmUnParkingOperation_InputMessage_Headers">
+    <wsdl:part name="ConsolaSoapHeader" element="tns:ConsolaSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPConfirmUnParkingOperation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:rdPConfirmUnParkingOperationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPQueryFinePaymentQuantity_InputMessage">
+    <wsdl:part name="parameters" element="tns:rdPQueryFinePaymentQuantity" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPQueryFinePaymentQuantity_InputMessage_Headers">
+    <wsdl:part name="ConsolaSoapHeader" element="tns:ConsolaSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPQueryFinePaymentQuantity_OutputMessage">
+    <wsdl:part name="parameters" element="tns:rdPQueryFinePaymentQuantityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPQueryListOfFines_InputMessage">
+    <wsdl:part name="parameters" element="tns:rdPQueryListOfFines" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPQueryListOfFines_InputMessage_Headers">
+    <wsdl:part name="ConsolaSoapHeader" element="tns:ConsolaSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPQueryListOfFines_OutputMessage">
+    <wsdl:part name="parameters" element="tns:rdPQueryListOfFinesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPConfirmFinePayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:rdPConfirmFinePayment" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPConfirmFinePayment_InputMessage_Headers">
+    <wsdl:part name="ConsolaSoapHeader" element="tns:ConsolaSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPConfirmFinePayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:rdPConfirmFinePaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPNotifyAlarm_InputMessage">
+    <wsdl:part name="parameters" element="tns:rdPNotifyAlarm" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPNotifyAlarm_InputMessage_Headers">
+    <wsdl:part name="ConsolaSoapHeader" element="tns:ConsolaSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPNotifyAlarm_OutputMessage">
+    <wsdl:part name="parameters" element="tns:rdPNotifyAlarmResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPNotifyCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:rdPNotifyCollection" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPNotifyCollection_InputMessage_Headers">
+    <wsdl:part name="ConsolaSoapHeader" element="tns:ConsolaSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPNotifyCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:rdPNotifyCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPConfirmParkingOperation_InputMessage">
+    <wsdl:part name="parameters" element="tns:rdPConfirmParkingOperation" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPConfirmParkingOperation_InputMessage_Headers">
+    <wsdl:part name="ConsolaSoapHeader" element="tns:ConsolaSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPConfirmParkingOperation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:rdPConfirmParkingOperationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPCancelParkingOperation_InputMessage">
+    <wsdl:part name="parameters" element="tns:rdPCancelParkingOperation" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPCancelParkingOperation_InputMessage_Headers">
+    <wsdl:part name="ConsolaSoapHeader" element="tns:ConsolaSoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="IEndpoints_rdPCancelParkingOperation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:rdPCancelParkingOperationResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IEndpoints">
+    <wsdl:operation name="rdPConfirmUnParkingOperation">
+      <wsdl:input wsaw:Action="http://tempuri.org/rdPConfirmUnParkingOperation" message="tns:IEndpoints_rdPConfirmUnParkingOperation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/rdPConfirmUnParkingOperation" message="tns:IEndpoints_rdPConfirmUnParkingOperation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="rdPQueryFinePaymentQuantity">
+      <wsdl:input wsaw:Action="http://tempuri.org/rdPQueryFinePaymentQuantity" message="tns:IEndpoints_rdPQueryFinePaymentQuantity_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/rdPQueryFinePaymentQuantity" message="tns:IEndpoints_rdPQueryFinePaymentQuantity_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="rdPQueryListOfFines">
+      <wsdl:input wsaw:Action="http://tempuri.org/rdPQueryListOfFines" message="tns:IEndpoints_rdPQueryListOfFines_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/rdPQueryListOfFines" message="tns:IEndpoints_rdPQueryListOfFines_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="rdPConfirmFinePayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/rdPConfirmFinePayment" message="tns:IEndpoints_rdPConfirmFinePayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/rdPConfirmFinePayment" message="tns:IEndpoints_rdPConfirmFinePayment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="rdPNotifyAlarm">
+      <wsdl:input wsaw:Action="http://tempuri.org/rdPNotifyAlarm" message="tns:IEndpoints_rdPNotifyAlarm_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/rdPNotifyAlarm" message="tns:IEndpoints_rdPNotifyAlarm_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="rdPNotifyCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/rdPNotifyCollection" message="tns:IEndpoints_rdPNotifyCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/rdPNotifyCollection" message="tns:IEndpoints_rdPNotifyCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="rdPConfirmParkingOperation">
+      <wsdl:input wsaw:Action="http://tempuri.org/rdPConfirmParkingOperation" message="tns:IEndpoints_rdPConfirmParkingOperation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/rdPConfirmParkingOperation" message="tns:IEndpoints_rdPConfirmParkingOperation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="rdPCancelParkingOperation">
+      <wsdl:input wsaw:Action="http://tempuri.org/rdPCancelParkingOperation" message="tns:IEndpoints_rdPCancelParkingOperation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/rdPCancelParkingOperation" message="tns:IEndpoints_rdPCancelParkingOperation_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IEndpoints" type="tns:IEndpoints">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="rdPConfirmUnParkingOperation">
+      <soap:operation soapAction="http://tempuri.org/rdPConfirmUnParkingOperation" style="document" />
+      <wsdl:input>
+        <soap:header message="tns:IEndpoints_rdPConfirmUnParkingOperation_InputMessage_Headers" part="ConsolaSoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rdPQueryFinePaymentQuantity">
+      <soap:operation soapAction="http://tempuri.org/rdPQueryFinePaymentQuantity" style="document" />
+      <wsdl:input>
+        <soap:header message="tns:IEndpoints_rdPQueryFinePaymentQuantity_InputMessage_Headers" part="ConsolaSoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rdPQueryListOfFines">
+      <soap:operation soapAction="http://tempuri.org/rdPQueryListOfFines" style="document" />
+      <wsdl:input>
+        <soap:header message="tns:IEndpoints_rdPQueryListOfFines_InputMessage_Headers" part="ConsolaSoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rdPConfirmFinePayment">
+      <soap:operation soapAction="http://tempuri.org/rdPConfirmFinePayment" style="document" />
+      <wsdl:input>
+        <soap:header message="tns:IEndpoints_rdPConfirmFinePayment_InputMessage_Headers" part="ConsolaSoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rdPNotifyAlarm">
+      <soap:operation soapAction="http://tempuri.org/rdPNotifyAlarm" style="document" />
+      <wsdl:input>
+        <soap:header message="tns:IEndpoints_rdPNotifyAlarm_InputMessage_Headers" part="ConsolaSoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rdPNotifyCollection">
+      <soap:operation soapAction="http://tempuri.org/rdPNotifyCollection" style="document" />
+      <wsdl:input>
+        <soap:header message="tns:IEndpoints_rdPNotifyCollection_InputMessage_Headers" part="ConsolaSoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rdPConfirmParkingOperation">
+      <soap:operation soapAction="http://tempuri.org/rdPConfirmParkingOperation" style="document" />
+      <wsdl:input>
+        <soap:header message="tns:IEndpoints_rdPConfirmParkingOperation_InputMessage_Headers" part="ConsolaSoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rdPCancelParkingOperation">
+      <soap:operation soapAction="http://tempuri.org/rdPCancelParkingOperation" style="document" />
+      <wsdl:input>
+        <soap:header message="tns:IEndpoints_rdPCancelParkingOperation_InputMessage_Headers" part="ConsolaSoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Endpoints">
+    <wsdl:port name="BasicHttpBinding_IEndpoints" binding="tns:BasicHttpBinding_IEndpoints">
+      <soap:address location="http://otavig.bilbokoudala.lan/PxEndpoint/endpointswcf/Endpoints.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
