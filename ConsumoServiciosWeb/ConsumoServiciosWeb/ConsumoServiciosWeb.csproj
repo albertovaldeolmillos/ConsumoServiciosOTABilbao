@@ -64,11 +64,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Web References\lan.bilbokoudala.desota\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -105,10 +100,6 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Connected Services\TariffComputerLocal\TariffComputer.wsdl" />
-    <None Include="Web References\lan.bilbokoudala.desota\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
@@ -141,27 +132,6 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <WebReferences Include="Web References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WebReferenceUrl Include="http://desota.bilbokoudala.lan/BilbaoPark/ws/Mobile/integraExternalServices.asmx">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\lan.bilbokoudala.desota\</RelPath>
-      <UpdateFromURL>http://desota.bilbokoudala.lan/BilbaoPark/ws/Mobile/integraExternalServices.asmx</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>
-      </CachedAppSettingsObjectName>
-      <CachedSettingsPropName>
-      </CachedSettingsPropName>
-    </WebReferenceUrl>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Web References\lan.bilbokoudala.desota\integraExternalServices.disco" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\TariffComputerLocal\TariffComputer.disco" />
