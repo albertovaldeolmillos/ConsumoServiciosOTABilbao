@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="qKuqvP0qhNKaMFFsXmD+3t2cO+LLIoLDgqgYqpSJvn4=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="W9XnS+3geV7xpxjCEYJnPszqSIrg9+AR3lbuSRoeNC0=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IEndpoints">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IEndpoints" contract="PxEndpointWCF.IEndpoints" bindingType="basicHttpBinding" address="http://otavig.bilbokoudala.lan/PxEndpoint/endpointswcf/Endpoints.svc" bindingConfiguration="BasicHttpBinding_IEndpoints">
+    <endpoint name="BasicHttpBinding_IEndpoints" contract="PxEndpointWCF.IEndpoints" bindingType="basicHttpBinding" address="http://desota.bilbokoudala.lan/PxEndpoint/endpointswcf/Endpoints.svc" bindingConfiguration="BasicHttpBinding_IEndpoints">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://otavig.bilbokoudala.lan/PxEndpoint/endpointswcf/Endpoints.svc</serializedValue>
+          <serializedValue>http://desota.bilbokoudala.lan/PxEndpoint/endpointswcf/Endpoints.svc</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

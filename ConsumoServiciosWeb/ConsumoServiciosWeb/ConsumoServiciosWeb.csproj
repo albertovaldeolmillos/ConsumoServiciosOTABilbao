@@ -92,11 +92,11 @@
     <None Include="Connected Services\PxEndpointWCF\ConsumoServiciosWeb.PxEndpointWCF.rdPQueryListOfFinesResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\PxEndpointWCF\Endpoints.wsdl" />
-    <None Include="Connected Services\PxEndpointWCF\Endpoints.xsd">
+    <None Include="Connected Services\PxEndpointWCF\Endpoints1.wsdl" />
+    <None Include="Connected Services\PxEndpointWCF\Endpoints2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\PxEndpointWCF\Endpoints1.xsd">
+    <None Include="Connected Services\PxEndpointWCF\Endpoints21.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Connected Services\TariffComputerLocal\TariffComputer.wsdl" />

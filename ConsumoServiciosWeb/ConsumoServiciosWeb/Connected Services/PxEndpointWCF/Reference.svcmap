@@ -19,12 +19,12 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://otavig.bilbokoudala.lan/PxEndpoint/EndpointsWCF/Endpoints.svc?wsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://desota.bilbokoudala.lan/PxEndpoint/EndpointsWCF/Endpoints.svc?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Endpoints.wsdl" MetadataType="Wsdl" ID="668796d6-beab-4179-aa64-c2407de5ad3f" SourceId="1" SourceUrl="http://otavig.bilbokoudala.lan/PxEndpoint/EndpointsWCF/Endpoints.svc?wsdl" />
-    <MetadataFile FileName="Endpoints.xsd" MetadataType="Schema" ID="6003729d-88f0-43ad-b6ac-b8a41a046521" SourceId="1" SourceUrl="http://otavig.bilbokoudala.lan/PxEndpoint/endpointswcf/Endpoints.svc?xsd=xsd0" />
-    <MetadataFile FileName="Endpoints1.xsd" MetadataType="Schema" ID="e7b6637b-b853-4368-bb5c-488a91a483b0" SourceId="1" SourceUrl="http://otavig.bilbokoudala.lan/PxEndpoint/endpointswcf/Endpoints.svc?xsd=xsd1" />
+    <MetadataFile FileName="Endpoints2.xsd" MetadataType="Schema" ID="31317bc0-7d04-4946-ab10-6bafdb2cbec9" SourceId="1" SourceUrl="http://desota.bilbokoudala.lan/PxEndpoint/endpointswcf/Endpoints.svc?xsd=xsd1" />
+    <MetadataFile FileName="Endpoints21.xsd" MetadataType="Schema" ID="22dc3c11-a163-4af7-90c1-8082e87da043" SourceId="1" SourceUrl="http://desota.bilbokoudala.lan/PxEndpoint/endpointswcf/Endpoints.svc?xsd=xsd0" />
+    <MetadataFile FileName="Endpoints1.wsdl" MetadataType="Wsdl" ID="27c18901-fb6f-4eb0-bb48-dc01ad423971" SourceId="1" SourceUrl="http://desota.bilbokoudala.lan/PxEndpoint/EndpointsWCF/Endpoints.svc?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
